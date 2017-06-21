@@ -11,9 +11,13 @@ To get started, you'll need to have the following requirements installed
 - npm
 - MongoDB 2.6.x / 3.2.x<sup>2</sup>
 
-<sup>1</sup>See https://nodejs.org/
+<sup>1</sup>See https://nodejs.org/. Node.js version major version 6 or 8 is recommended
 
 <sup>2</sup>See https://docs.mongodb.com/manual/administration/install-community/ for installation guides
+
+Alternatively, you can run MongoDB in a Docker container via following command:
+
+`docker run -d mongo:3.2 --name users-api -p 27017:27017`
 
 ## Getting started
 	
